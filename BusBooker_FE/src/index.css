@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-tabs-nav {
+    width: 100% !important;
+}
+
+.ant-tabs-nav-list {
+    width: 100% !important;
+    display: flex !important;
+}
+
+.ant-tabs-tab {
+    flex: 1 !important;
+    justify-content: center !important;
+}
+
+
+@media (max-width: 700px) {
+    .ant-picker-panels{
+        display: flex !important;
+       flex-direction: column !important;
+       height: 400px;
+       overflow-y: scroll;
+   }
+}
+
+/* Ẩn thanh cuộn ngang cho trình duyệt hỗ trợ */
+.scroll-container::-webkit-scrollbar {
+    display: none; /* Ẩn thanh cuộn ngang trên Chrome, Safari */
+  }
+  
+  .scroll-container {
+    -ms-overflow-style: none;  /* Ẩn thanh cuộn trên IE và Edge */
+    scrollbar-width: none;     /* Ẩn thanh cuộn trên Firefox */
+  }
+
+/* Căn giữa pagination cho Table */
+.ant-pagination {
+  display: flex !important;
+  justify-content: center !important;
+}
+

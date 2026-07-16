@@ -1,0 +1,3 @@
+mongodb+srv://minhduc180104:minhduc180104@learnmongo.zli6q.mongodb.net/?retryWrites=true&w=majority&appName=LearnMongo
+ 
+sử dụng MongoDB Compass
